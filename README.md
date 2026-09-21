@@ -65,3 +65,17 @@ ENTIDADE A ─────── RELACIONAMENTO ─────── ENTIDADE B
  O ideal é primeiro construirmos a **lista de entidades do item 6**, justificarmos cada uma e definirmos os relacionamentos. Depois usamos essa mesma estrutura para montar o **Dicionário de Dados (item 5)** e, finalmente, o **DER (item 7)**.
 
  Se você me mandar **o contexto do projeto/organização e as entidades que vocês já identificaram (ou o que vocês têm até agora)**, posso montar com você **o item 6 primeiro, passo a passo**, já deixando a estrutura pronta para depois transformar nos itens 5 e 7.
+
+ | Entidade | Relaciona-se com | Justificativa |
+|---|---|---|
+| Empresa | Cliente | 1:N - Uma empresa atende vários clientes.  |
+| Empresa | Funcionário | 1:N - Uma empresa emprega vários funcionários |
+| Empresa | Fornecedor | 1:N - Uma empresa tem vários fornecedores |
+| Funcionário | Cliente | 1:N - Um funcionário atende vários clientes. |
+| Funcionário | Empresa | 1:1 - Um fun |
+| Fornecedor | d |  |
+| Produto | c | |
+| Estoque | d  | |
+| Pedido | s | |
+| Pagamento | d |  |
+
