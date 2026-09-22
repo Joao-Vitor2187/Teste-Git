@@ -83,7 +83,7 @@ ENTIDADE A ─────── RELACIONAMENTO ─────── ENTIDADE B
 #prompt
 Preciso de um modelo conceitual que liste as seguintes coisas: Entidades, Atributos, Relacionamentos, seguindo as seguintes instruções: 
 
-## 6. Modelagem Conceitual (Entidades, Atributos, Relacionamentos)
+##6. Modelagem Conceitual (Entidades, Atributos, Relacionamentos)
 *(vale 7,5% na dimensão conceitual)*
 
 - **Entidades reconhecidas:** *liste e justifique brevemente cada uma.*
