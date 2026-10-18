@@ -47,8 +47,39 @@ Ano_Filmagem | Atributo |
 | Valor_Pago | Atributo |
 
 ## 3FN
+#### Isolam-se as entidades em tabelas separadas para atender à 3FN e à FNBC:
+
+### Filme
+| Atributo | Tipo / Função | 
+| :--- | :--- | 
+| Titulo_Filme | Chave Primária | 
+| Estrela | Atributo | 
+| Duracao | Atributo | 
+| Ano_Filmagem | Atributo |
+
+### DVD
+| Atributo | Tipo / Função |
+| :--- | :--- | 
+| Numero_DVD | Chave Primária | 
+| Data_Fabricacao | Atributo | 
+| Titulo_Filme | Chave Estrangeira |
+ 
+### Cliente
+| Atributo | Tipo / Função | 
+| :--- | :--- | 
+| Numero_Cliente | Chave Primária |
+|Nome_Cliente | Atributo | 
+| Endereco_Cliente | Atributo |
 
 
+### Locacao
+| Atributo | Tipo / Função |
+| :--- | :--- | 
+| Numero_DVD | Chave Primária / Chave Estrangeira | 
+| Numero_Cliente | Chave Primária / Chave Estrangeira | 
+| Data_Locacao | Chave Primária | 
+| Data_Devolucao | Atributo | 
+| Valor_Pago | Atributo |
 
 
 
